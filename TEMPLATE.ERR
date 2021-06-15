@@ -1,0 +1,72 @@
+Microsoft (R) C/C++ Optimizing Compiler Version 7.00
+Copyright (c) Microsoft Corp 1984-1992. All rights reserved.
+
+template.c
+template.c(35) : error C2065: 'szCfg' : undeclared identifier
+template.c(35) : warning C4047: 'argument' : different levels of indirection
+template.c(35) : warning C4024: 'strcpy' : different types for formal and actual parameter 1
+template.c(35) : error C2001: newline in constant
+template.c(38) : error C2143: syntax error : missing ')' before 'if'
+template.c(38) : error C2198: 'ArgGet' : too few actual parameters
+template.c(42) : warning C4047: 'argument' : different levels of indirection
+template.c(42) : warning C4024: 'strcpy' : different types for formal and actual parameter 1
+template.c(43) : warning C4047: 'argument' : different levels of indirection
+template.c(43) : warning C4024: 'strchr' : different types for formal and actual parameter 1
+template.c(44) : warning C4047: 'argument' : different levels of indirection
+template.c(44) : warning C4024: 'strcat' : different types for formal and actual parameter 1
+template.c(44) : error C2059: syntax error : ','
+template.c(45) : warning C4035: 'FindCfg' : no return value
+template.c(53) : error C2065: 'sz' : undeclared identifier
+template.c(53) : warning C4047: 'argument' : different levels of indirection
+template.c(53) : warning C4024: 'CfgGetLine' : different types for formal and actual parameter 4
+template.c(54) : warning C4047: 'argument' : different levels of indirection
+template.c(54) : warning C4024: 'strcpy' : different types for formal and actual parameter 2
+template.c(59) : error C2065: 'pszHEADER' : undeclared identifier
+template.c(59) : warning C4047: 'argument' : different levels of indirection
+template.c(59) : warning C4024: 'CfgGetSection' : different types for formal and actual parameter 3
+template.c(62) : error C2065: 'pszBODY' : undeclared identifier
+template.c(62) : warning C4047: 'argument' : different levels of indirection
+template.c(62) : warning C4024: 'CfgGetSection' : different types for formal and actual parameter 3
+template.c(64) : warning C4047: 'argument' : different levels of indirection
+template.c(64) : warning C4024: 'CfgGetSection' : different types for formal and actual parameter 3
+template.c(81) : warning C4013: 'LoadLabels' undefined; assuming extern returning int
+template.c(82) : error C2065: 'fpOut' : undeclared identifier
+template.c(82) : warning C4013: 'OpenOutFile' undefined; assuming extern returning int
+template.c(83) : warning C4013: 'XlateBuffer' undefined; assuming extern returning int
+template.c(84) : error C2065: 'fpIn' : undeclared identifier
+template.c(84) : warning C4047: 'argument' : different levels of indirection
+template.c(84) : warning C4024: 'FilReadLine' : different types for formal and actual parameter 1
+template.c(84) : warning C4047: 'argument' : different levels of indirection
+template.c(84) : warning C4024: 'FilReadLine' : different types for formal and actual parameter 2
+template.c(85) : warning C4013: 'LoadLine' undefined; assuming extern returning int
+template.c(87) : error C2065: 'pszFOOTER' : undeclared identifier
+template.c(88) : warning C4047: 'argument' : different levels of indirection
+template.c(88) : warning C4024: 'fclose' : different types for formal and actual parameter 1
+template.c(106) : warning C4047: 'argument' : different levels of indirection
+template.c(106) : warning C4024: 'FilReadLine' : different types for formal and actual parameter 1
+template.c(106) : warning C4047: 'argument' : different levels of indirection
+template.c(106) : warning C4024: 'FilReadLine' : different types for formal and actual parameter 2
+template.c(113) : warning C4047: 'argument' : different levels of indirection
+template.c(113) : warning C4024: 'fclose' : different types for formal and actual parameter 1
+template.c(125) : error C2143: syntax error : missing ';' before '{'
+template.c(152) : error C2065: 'pfoList' : undeclared identifier
+template.c(152) : warning C4013: 'DirFindAll' undefined; assuming extern returning int
+template.c(153) : error C2065: 'pfo' : undeclared identifier
+template.c(153) : error C2223: left of '->next' must point to class/struct/union
+template.c(157) : warning C4013: 'MakeFileName' undefined; assuming extern returning int
+template.c(157) : error C2143: syntax error : missing ';' before '...'
+template.c(159) : warning C4013: 'XlateFile' undefined; assuming extern returning int
+template.c(160) : warning C4047: 'argument' : different levels of indirection
+template.c(160) : warning C4024: 'fclose' : different types for formal and actual parameter 1
+template.c(163) : warning C4047: 'argument' : different levels of indirection
+template.c(163) : warning C4024: 'fclose' : different types for formal and actual parameter 1
+template.c(177) : warning C4013: 'Usage' undefined; assuming extern returning int
+template.c(180) : error C2065: 'pszCSV' : undeclared identifier
+template.c(180) : warning C4047: '=' : different levels of indirection
+template.c(185) : error C2065: 'pszCFG' : undeclared identifier
+template.c(185) : warning C4047: 'argument' : different levels of indirection
+template.c(185) : warning C4024: 'FindCfg' : different types for formal and actual parameter 1
+template.c(186) : error C2065: 'pszCfg' : undeclared identifier
+template.c(186) : warning C4047: 'argument' : different levels of indirection
+template.c(186) : warning C4024: 'LoadCFG' : different types for formal and actual parameter 1
+template.c(195) : warning C4013: 'ProcessFile' undefined; assuming extern returning int
